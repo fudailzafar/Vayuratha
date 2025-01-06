@@ -1,3 +1,4 @@
+/* Base Styles */
 .hero {
   margin: 0px 120px;
   margin-top: 270px;
@@ -63,4 +64,200 @@
 .hero-play p {
   color: #fff;
   font-size: 19px;
+}
+
+/* Responsive Styles */
+
+/* Large tablets and small laptops (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .hero {
+    margin: 0 60px;
+    margin-top: 150px;
+  }
+
+  .hero-text {
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  .hero-explore {
+    gap: 30px;
+    margin-top: 50px;
+    padding: 5px 20px;
+  }
+
+  .hero-explore p {
+    font-size: 18px;
+  }
+
+  .hero-dot-play {
+    margin-top: 80px;
+  }
+
+  .hero-play {
+    gap: 20px;
+  }
+
+  .hero-play p {
+    font-size: 16px;
+  }
+}
+
+/* Tablets and large phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .hero {
+    margin: 0 30px;
+    margin-top: 100px;
+  }
+
+  .hero-text {
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  .hero-explore {
+    gap: 20px;
+    margin-top: 40px;
+    padding: 5px 15px;
+  }
+
+  .hero-explore p {
+    font-size: 16px;
+  }
+
+  .hero-dot-play {
+    margin-top: 60px;
+  }
+
+  .hero-dots {
+    gap: 15px;
+  }
+
+  .hero-dot {
+    width: 12px;
+    height: 12px;
+  }
+
+  .hero-play {
+    gap: 15px;
+  }
+
+  .hero-play p {
+    font-size: 14px;
+  }
+}
+
+/* Small phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .hero {
+    margin: 0 15px;
+    margin-top: 80px;
+  }
+
+  .hero-text {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .hero-explore {
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Space between text and arrow */
+    margin-top: 70px;
+    padding: 5px 15px; /* Adjust padding to make it smaller */
+    padding-left: 20px; /* Fine-tune left padding */
+    border-radius: 40px; /* Reduce the curvature of the background */
+    background-color: white;
+    cursor: pointer;
+    width: fit-content; /* Ensure the background wraps tightly around content */
+  }
+
+  .hero-explore p {
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .hero-dot-play {
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .hero-dots {
+    gap: 10px;
+  }
+
+  .hero-dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .hero-play {
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-play p {
+    font-size: 12px;
+  }
+}
+
+/* Large tablets and small laptops (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .hero-explore {
+    gap: 30px;
+    padding: 5px 12px; /* Smaller padding */
+    padding-left: 15px; /* Reduce left padding further */
+    border-radius: 30px; /* Smaller border-radius */
+  }
+
+  .hero-explore p {
+    font-size: 18px;
+  }
+
+  .hero-explore img {
+    width: 30px; /* Adjust arrow size */
+    height: 30px;
+  }
+}
+
+/* Tablets and large phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .hero-explore {
+    gap: 20px;
+    margin-top: 40px;
+    padding: 5px 10px; /* Minimal padding for smaller screens */
+    padding-left: 10px;
+    border-radius: 20px; /* Tighter corners */
+  }
+
+  .hero-explore p {
+    font-size: 16px;
+  }
+
+  .hero-explore img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/* Small phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .hero-explore {
+    flex-direction: row; /* Stack text and image vertically */
+    align-items: center; /* Center-align items vertically */
+    justify-content: center; /* Center-align items horizontally */
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 30px;
+    padding: 5px 10px;
+    padding-left: 5px;
+    border-radius: 15px; /* Smaller curvature for compact design */
+  }
+
+  .hero-explore p {
+    text-align: center; /* Center the text inside the container */
+  }
 }

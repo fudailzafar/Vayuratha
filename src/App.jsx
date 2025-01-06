@@ -6,8 +6,8 @@ import Hero from "./components/hero/Hero";
 
 const App = () => {
   let heroData = [
-    { text1: "Dive into", text2: "Agriculture" },
-    { text1: "Learn", text2: "Aerial Photography" },
+    { text1: "Buy for your", text2: "Agriculture" },
+    { text1: "Check out", text2: "our Drones" },
     { text1: "Give in to", text2: "your passions" },
   ];
   const [heroCount, setHeroCount] = useState(0);

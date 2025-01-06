@@ -23,3 +23,22 @@
 .fade-in {
   animation: fadeIn 500ms ease-in-out;
 }
+
+@media (max-width: 1024px) {
+  .background {
+    object-fit: contain; /* Ensure the image or video scales properly */
+  }
+}
+
+@media (max-width: 768px) {
+  .background {
+    object-fit: cover; /* Maintain cover for smaller devices */
+  }
+}
+
+@media (max-width: 480px) {
+  .background {
+    height: 100vh; /* Ensure it takes the viewport height */
+    object-fit: cover;
+  }
+}
