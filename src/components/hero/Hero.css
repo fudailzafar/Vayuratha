@@ -1,7 +1,7 @@
 /* Base Styles */
 .hero {
   margin: 0px 120px;
-  margin-top: 270px;
+  margin-top: 100px;
 }
 
 .hero-text {
@@ -31,7 +31,7 @@
 }
 
 .hero-dot-play {
-  margin-top: 120px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -242,6 +242,9 @@
     width: 25px;
     height: 25px;
   }
+  .hero-section-image {
+    height: 50px;
+  }
 }
 
 /* Small phones (max-width: 480px) */
@@ -259,5 +262,8 @@
 
   .hero-explore p {
     text-align: center; /* Center the text inside the container */
+  }
+  .hero-section-image {
+    height: 50px;
   }
 }
