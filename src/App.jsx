@@ -3,7 +3,7 @@ import React from "react";
 import Background from "./components/background/Background";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
-
+import Footer from "./components/footer/Footer";
 const App = () => {
   let heroData = [
     { text1: "Buy for your", text2: "Agriculture" },
@@ -32,6 +32,7 @@ const App = () => {
         setHeroCount={setHeroCount}
         playStatus={playStatus}
       />
+      <Footer />
     </div>
   );
 };
