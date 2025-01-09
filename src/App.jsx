@@ -4,6 +4,8 @@ import Background from "./components/background/Background";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import Footer from "./components/footer/Footer";
+import Customer from "./components/customers/Customer";
+import Grid from "./components/grid/Grid";
 const App = () => {
   let heroData = [
     { text1: "Buy for your", text2: "Agriculture" },
@@ -32,6 +34,8 @@ const App = () => {
         setHeroCount={setHeroCount}
         playStatus={playStatus}
       />
+      <Grid />
+      <Customer />
       <Footer />
     </div>
   );

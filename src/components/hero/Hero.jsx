@@ -3,14 +3,7 @@ import arrow_btn from "../../assets/arrow_btn.png";
 import play_icon from "../../assets/play_icon.png";
 import pause_icon from "../../assets/pause_icon.png";
 
-const Hero = ({
-  className,
-  heroData,
-  setHeroCount,
-  heroCount,
-  setPlayStatus,
-  playStatus,
-}) => {
+const Hero = ({ className, heroData, setHeroCount, heroCount }) => {
   return (
     <div className="hero">
       <div className={`${className}`}>
@@ -39,15 +32,6 @@ const Hero = ({
             className={heroCount === 2 ? "hero-dot orange" : "hero-dot"}
           ></li>
         </ul>
-        <div className="hero-play cursor-pointer">
-          <img
-            onClick={() => setPlayStatus(!playStatus)}
-            src={playStatus ? pause_icon : play_icon}
-            alt=""
-            className="hero-section-image"
-          />
-          <p>See the video</p>
-        </div>
       </div>
     </div>
   );
