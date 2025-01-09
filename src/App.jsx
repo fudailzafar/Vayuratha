@@ -25,7 +25,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Background playStatus={playStatus} heroCount={heroCount} />
+      <Background playStatus={playStatus} heroCount={heroCount} />  
       <Hero
         className={`${playStatus ? "hidden" : "block"}`}
         setPlayStatus={setPlayStatus}
@@ -35,7 +35,7 @@ const App = () => {
         playStatus={playStatus}
       />
       <Grid />
-      <Customer />
+      
       <Footer />
     </div>
   );

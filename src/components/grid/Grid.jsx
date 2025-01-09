@@ -27,7 +27,7 @@ const Grid = () => {
       </div>
 
       {/* Row-2 */}
-      <div className="2xl:container mx-auto bg-white">
+      <div className="2xl:container mx-auto bg-white pb-8">
         <div class="w-[90%] md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 pt-5 gap-2 md:hover:cursor-pointer">
           {/*Card 1*/}
           <div className="bg-[url('https://ik.imagekit.io/a5ujvxcmh/drone-1.avif')] alt-drone-img rounded-3xl h-[300px]">
