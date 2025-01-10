@@ -185,7 +185,7 @@ const footer = () => {
               <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
                 <a
                   href="https://www.linkedin.com/company/vayuratha-private-limited/"
-                  className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-indigo-600"
+                  className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-yellow-400"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -205,7 +205,7 @@ const footer = () => {
                 </a>
                 <a
                   href="https://www.instagram.com/vayuratha_pvt.ltd/"
-                  className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-indigo-600"
+                  className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-yellow-400"
                 >
                   <svg
                     className="w-[1.25rem] h-[1.125rem] text-white"
@@ -221,7 +221,7 @@ const footer = () => {
                 </a>
                 <a
                   href="https://www.linkedin.com/company/vayuratha-private-limited/"
-                  className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-indigo-600"
+                  className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-yellow-400"
                 >
                   <svg
                     className="w-[1rem] h-[1rem] text-white"
@@ -237,7 +237,7 @@ const footer = () => {
                 </a>
                 <a
                   href="https://www.facebook.com/people/Vayu-Ratha/pfbid02QbM7XMriZC6PEFqMEyB9c4iXmJUf9GcG3hexGVHDQ8cjDuA9jY2TZnuuajFB3DKil/"
-                  className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-indigo-600"
+                  className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-yellow-400"
                 >
                   <svg
                     className="w-[1.25rem] h-[1.25rem] text-white"
