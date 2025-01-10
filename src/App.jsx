@@ -4,8 +4,9 @@ import Background from "./components/background/Background";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import Footer from "./components/footer/Footer";
-import Customer from "./components/customers/Customer";
 import Grid from "./components/grid/Grid";
+import Categories from "./components/categories/Categories";
+import Features from "./components/features/features";
 const App = () => {
   let heroData = [
     { text1: "Buy for your", text2: "Agriculture" },
@@ -25,7 +26,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Background playStatus={playStatus} heroCount={heroCount} />  
+      <Background playStatus={playStatus} heroCount={heroCount} />
       <Hero
         className={`${playStatus ? "hidden" : "block"}`}
         setPlayStatus={setPlayStatus}
@@ -34,8 +35,9 @@ const App = () => {
         setHeroCount={setHeroCount}
         playStatus={playStatus}
       />
+      <Categories />
+      <Features />
       <Grid />
-      
       <Footer />
     </div>
   );
