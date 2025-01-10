@@ -6,7 +6,7 @@ import Hero from "./components/hero/Hero";
 import Footer from "./components/footer/Footer";
 import Grid from "./components/grid/Grid";
 import Categories from "./components/categories/Categories";
-import Features from "./components/features/features";
+import Features from "./components/features/Features";
 const App = () => {
   let heroData = [
     { text1: "Buy for your", text2: "Agriculture" },
