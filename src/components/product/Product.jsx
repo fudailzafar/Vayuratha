@@ -50,7 +50,7 @@ const Products = () => {
                   </p>
                 </div>
                 <div className="flex flex-row gap-x-4 py-3 px-2">
-                  <button className=" text-black px-6 py-2 border-2 border-yellow-400 rounded-3xl font-medium hover:bg-purple-400 hover:border-2 border-purple-400">
+                  <button className=" text-black px-6 py-2 border-2 border-yellow-400 rounded-3xl font-medium hover:bg-purple-400 hover:border-2 ">
                     Add to cart
                   </button>
                   <button className=" text-black px-6 py-2 border-2 border-yellow-400 bg-yellow-400 rounded-3xl font-medium hover:bg-white">
@@ -88,7 +88,7 @@ const Products = () => {
                   </p>
                 </div>
                 <div className="flex flex-row gap-x-4 py-3 px-2">
-                  <button className=" text-black px-6 py-2 border-2 border-yellow-400 rounded-3xl font-medium hover:bg-purple-400 hover:border-2 border-purple-400">
+                  <button className=" text-black px-6 py-2 border-2 border-yellow-400 rounded-3xl font-medium hover:bg-purple-400 hover:border-2 ">
                     Add to cart
                   </button>
                   <button className=" text-black px-6 py-2 border-2 border-yellow-400 bg-yellow-400 rounded-3xl font-medium hover:bg-white">
@@ -126,7 +126,7 @@ const Products = () => {
                   </p>
                 </div>
                 <div className="flex flex-row gap-x-4 py-3 px-2">
-                  <button className=" text-black px-6 py-2 border-2 border-yellow-400 rounded-3xl font-medium hover:bg-purple-400 hover:border-2 border-purple-400">
+                  <button className=" text-black px-6 py-2 border-2 border-yellow-400 rounded-3xl font-medium hover:bg-purple-400 hover:border-2 ">
                     Add to cart
                   </button>
                   <button className=" text-black px-6 py-2 border-2 border-yellow-400 bg-yellow-400 rounded-3xl font-medium hover:bg-white">
@@ -164,7 +164,7 @@ const Products = () => {
                   </p>
                 </div>
                 <div className="flex flex-row gap-x-4 py-3 px-2">
-                  <button className=" text-black px-6 py-2 border-2 border-yellow-400 rounded-3xl font-medium hover:bg-purple-400 hover:border-2 border-purple-400">
+                  <button className=" text-black px-6 py-2 border-2 border-yellow-400 rounded-3xl font-medium hover:bg-purple-400 hover:border-2 ">
                     Add to cart
                   </button>
                   <button className=" text-black px-6 py-2 border-2 border-yellow-400 bg-yellow-400 rounded-3xl font-medium hover:bg-white">
@@ -202,7 +202,7 @@ const Products = () => {
                   </p>
                 </div>
                 <div className="flex flex-row gap-x-4 py-3 px-2">
-                  <button className=" text-black px-6 py-2 border-2 border-yellow-400 rounded-3xl font-medium hover:bg-purple-400 hover:border-2 border-purple-400">
+                  <button className=" text-black px-6 py-2 border-2 border-yellow-400 rounded-3xl font-medium hover:bg-purple-400 hover:border-2 ">
                     Add to cart
                   </button>
                   <button className=" text-black px-6 py-2 border-2 border-yellow-400 bg-yellow-400 rounded-3xl font-medium hover:bg-white">
@@ -240,7 +240,7 @@ const Products = () => {
                   </p>
                 </div>
                 <div className="flex flex-row gap-x-4 py-3 px-2">
-                  <button className=" text-black px-6 py-2 border-2 border-yellow-400 rounded-3xl font-medium hover:bg-purple-400 hover:border-2 border-purple-400">
+                  <button className=" text-black px-6 py-2 border-2 border-yellow-400 rounded-3xl font-medium hover:bg-purple-400 hover:border-2 ">
                     Add to cart
                   </button>
                   <button className=" text-black px-6 py-2 border-2 border-yellow-400 bg-yellow-400 rounded-3xl font-medium hover:bg-white">
@@ -316,7 +316,7 @@ const Products = () => {
                   </p>
                 </div>
                 <div className="flex flex-row gap-x-4 py-3 px-2">
-                  <button className=" text-black px-6 py-2 border-2 border-yellow-400 rounded-3xl font-medium hover:bg-purple-400 hover:border-2 border-purple-400">
+                  <button className=" text-black px-6 py-2 border-2 border-yellow-400 rounded-3xl font-medium hover:bg-purple-400 hover:border-2 ">
                     Add to cart
                   </button>
                   <button className=" text-black px-6 py-2 border-2 border-yellow-400 bg-yellow-400 rounded-3xl font-medium hover:bg-white">
