@@ -33,8 +33,8 @@ const Grid = () => {
           <div className="bg-[url('https://ik.imagekit.io/a5ujvxcmh/drone-1.avif')] alt-drone-img rounded-3xl h-[300px]">
             <div className="bg-slate-800/50 pb-10 rounded-b-3xl mt-52">
               <h2 className=" text-white mt-48 px-6">
-                "Incredible drone with superb camera
-                <br /> quality and user-friendly features." - Alex
+                "Amazing visual and easy to use. Highly recommend 
+                Vayuratha!" - Emily
               </h2>
             </div>
           </div>
@@ -42,8 +42,7 @@ const Grid = () => {
           <div className="bg-[url('https://ik.imagekit.io/a5ujvxcmh/drone-1.avif')] alt-drone-img rounded-3xl h-[300px]">
             <div className="bg-slate-800/50 pb-10 rounded-b-3xl mt-52">
               <h2 className=" text-white mt-48 px-6">
-                "Incredible drone with superb camera
-                <br /> quality and user-friendly features." - Alex
+                "Vayuratha is perfect for both fun and professional use. Impressive" - Brian
               </h2>
             </div>
           </div>
