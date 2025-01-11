@@ -33,26 +33,17 @@ const footer = () => {
                   </a>
                 </li>
                 <li className="mb-3">
-                  <a
-                    href="#"
-                    className=" text-white hover:text-white"
-                  >
+                  <a href="#" className=" text-white hover:text-white">
                     Product
                   </a>
                 </li>
                 <li className="mb-3">
-                  <a
-                    href="#"
-                    className=" text-white hover:text-white"
-                  >
+                  <a href="#" className=" text-white hover:text-white">
                     Featured
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className=" text-white hover:text-white"
-                  >
+                  <a href="#" className=" text-white hover:text-white">
                     Support
                   </a>
                 </li>
@@ -65,34 +56,22 @@ const footer = () => {
               </h4>
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-3">
-                  <a
-                    href="#"
-                    className="text-white hover:text-white"
-                  >
+                  <a href="#" className="text-white hover:text-white">
                     Basic
                   </a>
                 </li>
                 <li className="mb-3">
-                  <a
-                    href="#"
-                    className=" text-white hover:text-white"
-                  >
+                  <a href="#" className=" text-white hover:text-white">
                     Consumer
                   </a>
                 </li>
                 <li className="mb-3">
-                  <a
-                    href="#"
-                    className=" text-white hover:text-white"
-                  >
+                  <a href="#" className=" text-white hover:text-white">
                     Professional
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className=" text-white hover:text-white"
-                  >
+                  <a href="#" className=" text-white hover:text-white">
                     Enterprise
                   </a>
                 </li>
@@ -103,34 +82,22 @@ const footer = () => {
               <h4 className="text-lg text-white font-medium mb-7">Explore</h4>
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-3">
-                  <a
-                    href="#"
-                    className="text-white hover:text-white"
-                  >
+                  <a href="#" className="text-white hover:text-white">
                     Newsfeed
                   </a>
                 </li>
                 <li className="mb-3">
-                  <a
-                    href="#"
-                    className=" text-white hover:text-white"
-                  >
+                  <a href="#" className=" text-white hover:text-white">
                     Events
                   </a>
                 </li>
                 <li className="mb-3">
-                  <a
-                    href="#"
-                    className=" text-white hover:text-white"
-                  >
+                  <a href="#" className=" text-white hover:text-white">
                     Blogs
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className=" text-white hover:text-white"
-                  >
+                  <a href="#" className=" text-white hover:text-white">
                     Flying Education
                   </a>
                 </li>
@@ -141,34 +108,22 @@ const footer = () => {
               <h4 className="text-lg text-white font-medium mb-7">Support</h4>
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-3">
-                  <a
-                    href="#"
-                    className="text-white hover:text-white"
-                  >
+                  <a href="#" className="text-white hover:text-white">
                     Product Support
                   </a>
                 </li>
                 <li className="mb-3">
-                  <a
-                    href="#"
-                    className=" text-white hover:text-white"
-                  >
+                  <a href="#" className=" text-white hover:text-white">
                     Repair Service
                   </a>
                 </li>
                 <li className="mb-3">
-                  <a
-                    href="#"
-                    className=" text-white hover:text-white"
-                  >
+                  <a href="#" className=" text-white hover:text-white">
                     Help Center
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className=" text-white hover:text-white"
-                  >
+                  <a href="#" className=" text-white hover:text-white">
                     Download Center
                   </a>
                 </li>

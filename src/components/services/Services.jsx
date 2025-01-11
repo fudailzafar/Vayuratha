@@ -11,7 +11,7 @@ const Services = () => {
           <h1 className="font-[Montserrat] text-left font-bold text-[30px] text-black leading-9 ">
             Get 30% off <br /> On Your First <br /> Consultation
           </h1>
-          <button className="bg-black text-white text-[12px] font-[Montserrat] py-2 px-6 rounded-3xl mt-10 md:hover:cursor-pointer md:hover:bg-transparent md:hover:text-black md:hover:border md:hover:border-black"> 
+          <button className="bg-black text-white text-[12px] font-[Montserrat] py-2 px-6 rounded-3xl mt-10 md:hover:cursor-pointer md:hover:bg-transparent md:hover:text-black md:hover:border md:hover:border-black">
             Get Now
           </button>
         </div>

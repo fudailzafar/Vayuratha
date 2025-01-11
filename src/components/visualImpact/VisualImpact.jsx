@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'; // Example icon
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons"; // Example icon
 
 export const VisualImpact = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -18,7 +17,7 @@ export const VisualImpact = () => {
 
   const prevImage = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1 
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
 
@@ -26,7 +25,7 @@ export const VisualImpact = () => {
 
   return (
     <div className="2xl:container mx-auto bg-white p-2">
-      <div className="w-[90%] md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 bg-[#151515] p-7 pb-4 mt-5 mb-2 gap-24 rounded-3xl md:hover:cursor-pointer">
+      <div className="w-[90%] md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 bg-[#151515] p-7 pb-4 mt-5 mb-2 gap-24 rounded-3xl ">
         <div>
           <h1 className="font-[Montserrat] text-left font-semibold text-[38px] text-white">
             Get Your Maximum Visual Impact With Dronex
@@ -37,7 +36,7 @@ export const VisualImpact = () => {
           </p>
           <div className="flex flex-row justify-end pb-5">
             <button className="text-white pr-3" onClick={nextImage}>
-            <FontAwesomeIcon icon={faArrowLeft} />
+              <FontAwesomeIcon icon={faArrowLeft} />
             </button>
             <button className="text-white" onClick={prevImage}>
               <FontAwesomeIcon icon={faArrowRight} />
