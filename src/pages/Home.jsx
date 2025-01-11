@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 import React from "react";
 import Background from "../components/background/Background";
-import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/hero/Hero";
-import Footer from "../components/footer/Footer";
 import Grid from "../components/grid/Grid";
 import Categories from "../components/categories/Categories";
 import Features from "../components/features/Features";
@@ -29,7 +27,7 @@ const Home = () => {
   }, []);
   return (
     <div>
-      <Navbar />
+      
       <Background playStatus={playStatus} heroCount={heroCount} />
       <Hero
         className={`${playStatus ? "hidden" : "block"}`}
@@ -45,7 +43,7 @@ const Home = () => {
       <VisualImpact />
       <Services />
       <Grid />
-      <Footer />
+      
     </div>
   );
 };

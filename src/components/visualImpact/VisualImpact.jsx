@@ -73,7 +73,7 @@ export const VisualImpact = () => {
           <img
             src={images[currentIndex]}
             alt={`Carousel ${currentIndex}`}
-            className="rounded-3xl h-[400px] w-[400px]"
+            className="rounded-3xl h-[400px] w-[400px] md:ml-20"
           />
         </div>
       </div>
