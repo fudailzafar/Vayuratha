@@ -34,7 +34,7 @@ const footer = () => {
                 </li>
                 <li className="mb-3">
                   <a
-                    href="javascript:;"
+                    href="#"
                     className=" text-white hover:text-white"
                   >
                     Product
@@ -42,7 +42,7 @@ const footer = () => {
                 </li>
                 <li className="mb-3">
                   <a
-                    href="javascript:;"
+                    href="#"
                     className=" text-white hover:text-white"
                   >
                     Featured
@@ -50,7 +50,7 @@ const footer = () => {
                 </li>
                 <li>
                   <a
-                    href="javascript:;"
+                    href="#"
                     className=" text-white hover:text-white"
                   >
                     Support
@@ -66,7 +66,7 @@ const footer = () => {
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-3">
                   <a
-                    href="javascript:;"
+                    href="#"
                     className="text-white hover:text-white"
                   >
                     Basic
@@ -74,7 +74,7 @@ const footer = () => {
                 </li>
                 <li className="mb-3">
                   <a
-                    href="javascript:;"
+                    href="#"
                     className=" text-white hover:text-white"
                   >
                     Consumer
@@ -82,7 +82,7 @@ const footer = () => {
                 </li>
                 <li className="mb-3">
                   <a
-                    href="javascript:;"
+                    href="#"
                     className=" text-white hover:text-white"
                   >
                     Professional
@@ -90,7 +90,7 @@ const footer = () => {
                 </li>
                 <li>
                   <a
-                    href="javascript:;"
+                    href="#"
                     className=" text-white hover:text-white"
                   >
                     Enterprise
@@ -104,7 +104,7 @@ const footer = () => {
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-3">
                   <a
-                    href="javascript:;"
+                    href="#"
                     className="text-white hover:text-white"
                   >
                     Newsfeed
@@ -112,7 +112,7 @@ const footer = () => {
                 </li>
                 <li className="mb-3">
                   <a
-                    href="javascript:;"
+                    href="#"
                     className=" text-white hover:text-white"
                   >
                     Events
@@ -120,7 +120,7 @@ const footer = () => {
                 </li>
                 <li className="mb-3">
                   <a
-                    href="javascript:;"
+                    href="#"
                     className=" text-white hover:text-white"
                   >
                     Blogs
@@ -128,7 +128,7 @@ const footer = () => {
                 </li>
                 <li>
                   <a
-                    href="javascript:;"
+                    href="#"
                     className=" text-white hover:text-white"
                   >
                     Flying Education
@@ -142,7 +142,7 @@ const footer = () => {
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-3">
                   <a
-                    href="javascript:;"
+                    href="#"
                     className="text-white hover:text-white"
                   >
                     Product Support
@@ -150,7 +150,7 @@ const footer = () => {
                 </li>
                 <li className="mb-3">
                   <a
-                    href="javascript:;"
+                    href="#"
                     className=" text-white hover:text-white"
                   >
                     Repair Service
@@ -158,7 +158,7 @@ const footer = () => {
                 </li>
                 <li className="mb-3">
                   <a
-                    href="javascript:;"
+                    href="#"
                     className=" text-white hover:text-white"
                   >
                     Help Center
@@ -166,7 +166,7 @@ const footer = () => {
                 </li>
                 <li>
                   <a
-                    href="javascript:;"
+                    href="#"
                     className=" text-white hover:text-white"
                   >
                     Download Center

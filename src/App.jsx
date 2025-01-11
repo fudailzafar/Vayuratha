@@ -7,6 +7,9 @@ import Footer from "./components/footer/Footer";
 import Grid from "./components/grid/Grid";
 import Categories from "./components/categories/Categories";
 import Features from "./components/features/Features";
+import Video from "./components/video/Video";
+import { VisualImpact } from "./components/visualImpact/VisualImpact";
+import  Services from "./components/services/Services";
 const App = () => {
   let heroData = [
     { text1: "Buy for your", text2: "Agriculture" },
@@ -37,6 +40,9 @@ const App = () => {
       />
       <Categories />
       <Features />
+      <Video />
+      <VisualImpact />
+      <Services />
       <Grid />
       <Footer />
     </div>

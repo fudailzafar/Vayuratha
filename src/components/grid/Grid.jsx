@@ -4,7 +4,7 @@ const Grid = () => {
   return (
     <div className="2xl:container mx-auto bg-white">
       {/* Row-1 */}
-      <div class="w-[90%] md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  pt-5 gap-2 md:hover:cursor-pointer col-span-2">
+      <div className="w-[90%] md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  pt-5 gap-2 col-span-2">
         {/*Card 1*/}
         <div className="bg-[url('https://ik.imagekit.io/a5ujvxcmh/drone-1.avif')] alt-drone-img rounded-3xl h-[300px] col-span-2">
           <div className="bg-slate-800/50 pb-10 rounded-b-3xl mt-52">
@@ -28,7 +28,7 @@ const Grid = () => {
 
       {/* Row-2 */}
       <div className="2xl:container mx-auto bg-white pb-8">
-        <div class="w-[90%] md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 pt-5 gap-2 md:hover:cursor-pointer">
+        <div className="w-[90%] md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 pt-5 gap-2">
           {/*Card 1*/}
           <div className="bg-[url('https://ik.imagekit.io/a5ujvxcmh/drone-1.avif')] alt-drone-img rounded-3xl h-[300px]">
             <div className="bg-slate-800/50 pb-10 rounded-b-3xl mt-52">
@@ -48,12 +48,12 @@ const Grid = () => {
             </div>
           </div>
           {/*Card 3*/}
-          <div className="bg-[#f6f6f6] rounded-3xl h-[300px] p-10">
+          <div className="bg-[#f6f6f6] rounded-3xl h-[300px] p-10 transition-transform duration-300 hover:scale-95 hover:shadow-2xl cursor-default">
             <h2 className=" text-black font-bold text-[50px]">90%</h2>
             <p className="text-[18px] font-medium pt-2">
               Customer Recommended our <br /> Products To Everyone
             </p>
-            <button className="text-white bg-black px-5 py-2 rounded-3xl mt-6">
+            <button className="bg-black text-white px-5 py-2 rounded-3xl mt-6 md:hover:cursor-pointer md:hover:bg-transparent md:hover:text-black md:hover:border md:hover:border-black">
               Get Your Drone Now
             </button>
           </div>
