@@ -1,12 +1,12 @@
-import React from 'react'
-import Video from '../components/video/Video';
+import React from "react";
+import Products from "../components/product/Products";
 
 const Product = () => {
   return (
     <div>
-      <Video />
+      <Products />
     </div>
-  )
-}
+  );
+};
 
-export default Product
+export default Product;
