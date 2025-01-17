@@ -28,22 +28,22 @@ const footer = () => {
               <h4 className="text-lg text-white font-medium mb-7">Contents</h4>
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-3">
-                  <a href="#" className="text-white hover:text-white">
+                  <a href="/" className="text-white hover:text-white">
                     Home
                   </a>
                 </li>
                 <li className="mb-3">
-                  <a href="#" className=" text-white hover:text-white">
+                  <a href="/product" className=" text-white hover:text-white">
                     Product
                   </a>
                 </li>
                 <li className="mb-3">
-                  <a href="#" className=" text-white hover:text-white">
+                  <a href="/featured" className=" text-white hover:text-white">
                     Featured
                   </a>
                 </li>
                 <li>
-                  <a href="#" className=" text-white hover:text-white">
+                  <a href="/support" className=" text-white hover:text-white">
                     Support
                   </a>
                 </li>
