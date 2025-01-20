@@ -1,5 +1,10 @@
 import React from "react";
-import { toast } from "react-toastify";
+import "./Contact.css";
+import msg_icon from "../../assets/msg-icon.png";
+import mail_icon from "../../assets/mail-icon.png";
+import phone_icon from "../../assets/phone-icon.png";
+import location_icon from "../../assets/location-icon.png";
+import white_arrow from "../../assets/white-arrow.png";
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -19,70 +24,71 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("");
-      toast.success("Form Submitted Sucessfully");
+      setResult("Form Submitted Successfully");
       event.target.reset();
     } else {
       console.log("Error", data);
-      toast.error(data.message);
-      setResult("");
+      setResult(data.message);
     }
   };
-  return (
-    <div
-      className="text-center p-6 py-20 lg:px-32 w-full overflow-hidden"
-      id="Contact"
-    >
-      <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-center mt-12">
-        Contact{" "}
-        <span className="underline underline-offset-4 decoration-1 under font-light">
-          Us
-        </span>
-      </h1>
-      <p className="text-center text-gray-500 mb-2 max-w-80 mx-auto">
-        Ready to Elevate? Let’s Redefine the Skies Together!
-      </p>
 
-      <form
-        onSubmit={onSubmit}
-        className="max-w-2xl mx-auto text-gray-600 pt-8"
-      >
-        <div className="flex flex-wrap">
-          <div className="w-full md:w-1/2 text-left">
-            Your Name
-            <input
-              className="w-full border border-gray-300 rounded py-3 px-4 mt-2"
-              type="text"
-              name="Name"
-              placeholder="Your Name"
-              required
-            />
-          </div>
-          <div className="w-full md:w-1/2 text-left md:pl-4">
-            Your Email
-            <input
-              className="w-full border border-gray-300 rounded py-3 px-4 mt-2"
-              type="email"
-              name="Email"
-              placeholder="Your Email"
-              required
-            />
-          </div>
-        </div>
-        <div className="my-6 text-left">
-          Message
+  return (
+    <div className="contact">
+      <div className="contact-col">
+        <h3>
+          Send us a message <img src={msg_icon} alt="" />
+        </h3>
+        <p>
+          Fee free to reach out through contact form or find our contact
+          information below. Your feedback, questions, and suggestions are
+          important to us as we strive to provide exceptional service to our
+          university community.
+        </p>
+        <ul>
+          <li>
+            <img src={mail_icon} alt="" />
+            batmanbegins@gmail.com
+          </li>
+          <li>
+            <img src={phone_icon} alt="" />
+            +1 123-456-7890
+          </li>
+          <li>
+            <img src={location_icon} alt="" />
+            77 Massachusetts Ave, Cambridge
+            <br /> MA 02139, United States
+          </li>
+        </ul>
+      </div>
+      <div className="contact-col">
+        <form onSubmit={onSubmit}>
+          <label>Your name</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+          <label>Phone Number</label>
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Enter your phone number"
+            required
+          />
+          <label>Write your message here</label>
           <textarea
-            className="w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none"
-            name="Message"
-            placeholder="Message"
-            require
-            d
+            name="message"
+            rows={6}
+            placeholder="Enter your message"
+            required
           ></textarea>
-        </div>
-        <button className="bg-blue-600 text-white py-2 px-12 mb-10 rounded">
-          {result ? result : "Send Message"}
-        </button>
-      </form>
+          <button type="submit" className="btn dark-btn">
+            Submit Now <img src={white_arrow} alt="" />
+          </button>
+        </form>
+        <span>{result}</span>
+      </div>
     </div>
   );
 };
