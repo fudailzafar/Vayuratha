@@ -60,7 +60,7 @@ const Contact = () => {
           </li>
         </ul>
       </div>
-      <div className="contact-col">
+      <div className="contact-col mt-36">
         <form onSubmit={onSubmit}>
           <label>Your name</label>
           <input
