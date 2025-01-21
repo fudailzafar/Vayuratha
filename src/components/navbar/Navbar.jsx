@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
-            className="text-black bg-white hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-6 py-4 text-center dark:bg-white dark:hover:yellow-400 dark:hover:text-white dark:border dark:hover:border-white dark:focus:ring-yellow-800"
+            className="text-black bg-white border border-black hover:bg-black hover:text-white hover:border-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-6 py-4 text-center dark:bg-white dark:hover:yellow-400 dark:hover:text-white dark:border dark:hover:border-white dark:focus:ring-yellow-800"
           >
             Get started
           </button>
