@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-
 export const SlideTabsExample = () => {
   return (
     <div className="bg-transparent">
@@ -27,11 +26,19 @@ const SlideTabs = () => {
         }));
       }}
       className="relative mx-auto flex w-fit rounded-full border-2 border-black bg-white p-1"
-    >   
-      <Tab setPosition={setPosition} to="/">Home</Tab>
-      <Tab setPosition={setPosition} to="/product">Product</Tab>
-      <Tab setPosition={setPosition} to="/featured">Featured</Tab>
-      <Tab setPosition={setPosition} to="/support">Support</Tab>
+    >
+      <Tab setPosition={setPosition} to="/">
+        Home
+      </Tab>
+      <Tab setPosition={setPosition} to="/product">
+        Product
+      </Tab>
+      <Tab setPosition={setPosition} to="/about">
+        About
+      </Tab>
+      <Tab setPosition={setPosition} to="/support">
+        Support
+      </Tab>
 
       <Cursor position={position} />
     </ul>
@@ -55,11 +62,9 @@ const Tab = ({ children, setPosition, to }) => {
           opacity: 1,
         });
       }}
-      className="relative z-10 block cursor-pointer px-3 py-1.5 text-xs uppercase text-white mix-blend-difference md:px-5 md:py-3 md:text-base"
+      className="relative z-10 block cursor-pointer px-3 py-1.5 text-xs  text-white mix-blend-difference md:px-5 md:py-3 md:text-base"
     >
-        <Link to={to} >
-        {children}
-      </Link>
+      <Link to={to}>{children}</Link>
     </li>
   );
 };

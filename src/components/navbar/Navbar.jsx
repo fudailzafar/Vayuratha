@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 import { SlideTabsExample } from "./slideTabExample/SlideTabs";
-
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -11,15 +11,22 @@ const Navbar = () => {
           href="https://vayuratha.com/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img src={logo} className="h-14 bg-white rounded-lg" alt="Flowbite Logo" width={150}></img>
+          <img
+            src={logo}
+            className="h-14 bg-white rounded-lg"
+            alt="Flowbite Logo"
+            width={150}
+          ></img>
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button
-            type="button"
-            className="text-black bg-white border border-black hover:bg-black hover:text-white hover:border-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-6 py-4 text-center dark:bg-white dark:hover:yellow-400 dark:hover:text-white dark:border dark:hover:border-white dark:focus:ring-yellow-800"
-          >
-            Get started
-          </button>
+          <Link to={"/support"}>
+            <button
+              type="button"
+              className="text-black bg-white border border-black hover:bg-black hover:text-white hover:border-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-6 py-4 text-center dark:bg-white dark:hover:yellow-400 dark:hover:text-white dark:border dark:hover:border-white dark:focus:ring-yellow-800"
+            >
+              Get started
+            </button>
+          </Link>
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
@@ -49,7 +56,7 @@ const Navbar = () => {
           className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
           id="navbar-sticky"
         >
-          <SlideTabsExample/>
+          <SlideTabsExample />
         </div>
       </div>
     </nav>
