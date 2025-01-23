@@ -1,11 +1,11 @@
 import React from "react";
-import Grid from "../components/grid/Grid";
+import { BouncyCardsFeatures } from "../components/bouncycardsfeature/BouncyCardsFeature";
 
 const About = () => {
   return (
     <div>
       <div className="mt-24">
-        <Grid />
+        <BouncyCardsFeatures/>
       </div>
     </div>
   );
