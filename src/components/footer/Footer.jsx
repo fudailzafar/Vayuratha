@@ -16,7 +16,7 @@ const footer = () => {
                 href="https://vayuratha.com/"
                 className="flex justify-center lg:justify-start"
               >
-                <img src={logo} width={150} alt="" />
+                <img src={logo} width={150} alt="" className="bg-white rounded-lg" />
               </a>
               <p className="py-8 text-sm text-white lg:max-w-xs text-center lg:text-left">
                 Step into the future with our advanced drones for limitless
